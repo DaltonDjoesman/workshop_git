@@ -5,6 +5,7 @@ Começa por ler a **primeira linha do erro** e confirmar que estás na pasta do 
 | O que aparece | O que significa e o que fazer |
 | --- | --- |
 | **Não encontro o Visual Studio Code** | Procura o nome completo no menu de aplicações. Se não aparecer, segue a [instalação pelo site oficial](instalar-vscode.md) e confirma que abre antes de editar o README. |
+| **A instalação do WSL pede reinício, administrador ou não avança** | WSL/Ubuntu é opcional. Continua o exercício no Windows com **Git Bash** e, se quiseres, termina a [instalação de WSL](wsl-opcional.md) depois da sessão. |
 | **GitHub não me deixa criar o fork** ou pede verificação de email | A conta pode ainda não ter o email confirmado. Abre a caixa de correio usada no registo e segue o link do GitHub. Verifica a pasta de spam. Consulta a [ajuda oficial para criar conta](https://docs.github.com/en/account-and-profile/how-tos/account-management/creating-an-account-on-github). |
 | **`git: command not found`** ou **`'git' is not recognized`** | O Git não está instalado ou abriste outro terminal. No Windows, abre **Git Bash**. Nos outros sistemas, segue [macOS](instalar-macos.md) ou [Linux](instalar-linux.md), depois fecha e reabre o terminal. Confirma com `git --version`. |
 | **`fatal: not a git repository`** | Estás fora da pasta clonada. Usa `pwd` para ver onde estás, `ls` para listar as pastas e `cd NOME-DO-REPOSITORIO` para entrar na pasta que `git clone` criou. Confirma que `git status` já funciona. |
