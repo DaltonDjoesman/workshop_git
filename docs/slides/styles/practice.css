@@ -9,6 +9,16 @@
   to { opacity: 1; transform: translateY(0); }
 }
 .practice { background: #f8f7f5; }
+.handoff .closing-link .workshop-qr { width: clamp(12rem, 19vw, 18rem); max-width: 100%; margin: .2rem auto; }
+.handoff .closing-link .repo-url { font-size: clamp(1rem, 1.45vw, 1.45rem); overflow-wrap: anywhere; }
+.wsl-flow { display: flex; align-items: center; justify-content: center; gap: clamp(.7rem, 1.4vw, 1.4rem); margin-bottom: .2rem; }
+.wsl-flow span { flex: 1; padding: .9rem; border-radius: 8px; background: #f6e8e4; color: var(--red); text-align: center; font-size: clamp(1rem, 1.45vw, 1.45rem); font-weight: 760; }
+.wsl-flow span:last-child { background: #eee9f7; color: var(--purple); }
+.wsl-flow b { color: var(--purple); font-size: 1.8rem; }
+.wsl-steps { margin: 0; padding-left: 1.4rem; color: #3b3d50; font-size: clamp(1rem, 1.25vw, 1.25rem); line-height: 1.5; }
+.wsl-side details { padding: .55rem .8rem; border: 1px solid #d8d2e3; border-radius: 8px; background: #faf8fd; }
+.wsl-side summary { color: #49326f; font-weight: 720; cursor: pointer; }
+.wsl-side details p { margin-top: .6rem; }
 .practice-layout {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, .98fr);

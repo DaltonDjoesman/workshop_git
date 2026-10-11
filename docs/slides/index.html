@@ -7,10 +7,10 @@
   <meta name="description" content="Apresentação introdutória a Git e GitHub para estudantes de Bioinformática. ArmisLAB × NUBI.">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; form-action 'none'">
   <title>Git & GitHub — ArmisLAB × NUBI</title>
-  <link rel="stylesheet" href="styles/slides.css?v=2">
-  <link rel="stylesheet" href="styles/practice.css?v=4">
+  <link rel="stylesheet" href="styles/slides.css?v=3">
+  <link rel="stylesheet" href="styles/practice.css?v=5">
   <link rel="stylesheet" href="styles/concepts.css?v=2">
-  <script src="scripts/slides.js?v=4" defer></script>
+  <script src="scripts/slides.js?v=5" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#slide-1">Ir para a apresentação</a>
@@ -200,11 +200,28 @@
           <a href="https://github.com/nf-core/rnaseq" target="_blank" rel="noopener noreferrer"><span class="example-index">02</span><span><strong>nf-core/rnaseq</strong><small>Pipeline comunitário de análise de RNA-seq</small></span><span class="example-link" aria-hidden="true">↗</span></a>
           <a href="https://github.com/Illumina/dragen-aws-batch-quickstart" target="_blank" rel="noopener noreferrer"><span class="example-index">03</span><span><strong>Illumina · DRAGEN</strong><small>Exemplo público de repositório de uma empresa</small></span><span class="example-link" aria-hidden="true">↗</span></a>
         </div>
-        <p class="source-note">Os exemplos são ligações reais e podem mudar. <a href="https://github.com/RiquiFeup/workshop_git" target="_blank" rel="noopener noreferrer">Abre o repositório do workshop ↗</a> · Próximo: verificar o VS Code.</p>
+        <p class="source-note">Os exemplos são ligações reais e podem mudar. <a href="https://github.com/RiquiFeup/workshop_git" target="_blank" rel="noopener noreferrer">Abre o repositório do workshop ↗</a> · Próximo: agora tu.</p>
       </div>
     </section>
 
-    <section class="slide practice" id="slide-16" data-title="Verificar VS Code" aria-roledescription="slide" aria-label="Slide 16: verificar se o Visual Studio Code está instalado">
+    <section class="slide closing handoff" id="slide-16" data-title="Agora tu" aria-roledescription="slide" aria-label="Slide 16: agora tu, abre o repositório do workshop">
+      <div class="slide-inner closing-layout">
+        <div>
+          <span class="practice-time">14:30 · começa a prática</span>
+          <h2>Agora tu.</h2>
+          <p class="lead">Abre os materiais do workshop no teu computador. Os próximos slides acompanham cada passo.</p>
+          <div class="closing-steps" aria-label="Percurso da prática"><span>VS Code</span><span>WSL opcional</span><span>Git e conta</span><span>Fork e Clone</span><span>Primeiro commit</span></div>
+        </div>
+        <div class="closing-link">
+          <span>Repositório e roteiro</span>
+          <img class="workshop-qr" src="../assets/workshop-qr.svg" alt="Código QR para abrir github.com/RiquiFeup/workshop_git">
+          <a class="repo-url" href="https://github.com/RiquiFeup/workshop_git" target="_blank" rel="noopener noreferrer">github.com/RiquiFeup/workshop_git ↗</a>
+          <small>Lê o QR com a câmara ou abre o endereço. Mantém os slides à mão para voltar aos comandos.</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide practice" id="slide-17" data-title="Verificar VS Code" aria-roledescription="slide" aria-label="Slide 17: verificar se o Visual Studio Code está instalado">
       <div class="slide-inner practice-layout">
         <div class="practice-intro"><span class="practice-time">14:30–14:35 · antes de começar</span><h2>O VS Code já abre no teu computador?</h2><p class="lead">Vamos usá-lo para abrir e alterar o README. Verifica agora se consegues abrir o programa.</p><p class="aside">O nome completo é <strong>Visual Studio Code</strong>. É um editor de texto; não precisas de instalar extensões para este exercício.</p></div>
         <div class="practice-side vscode-side">
@@ -215,13 +232,35 @@
       </div>
     </section>
 
-    <section class="slide practice" id="slide-17" data-title="Conta e instalação" aria-roledescription="slide" aria-label="Slide 17: criar conta e instalar Git">
+    <section class="slide practice wsl-practice" id="slide-18" data-title="WSL opcional" aria-roledescription="slide" aria-label="Slide 18: instalação opcional de WSL e Ubuntu">
+      <div class="slide-inner practice-layout">
+        <div class="practice-intro">
+          <span class="practice-time">14:35 · opção para Windows</span>
+          <h2>Queres Ubuntu no Windows?</h2>
+          <p class="lead">O <strong>WSL</strong> permite usar um terminal Linux no Windows. É opcional para este workshop.</p>
+          <p class="aside">A instalação pode exigir administrador e reinício. Se quiseres avançar já com o exercício, usa <strong>Git Bash</strong> no slide seguinte.</p>
+          <a class="practice-link" href="https://learn.microsoft.com/en-us/windows/wsl/install" target="_blank" rel="noopener noreferrer">Instalação oficial da Microsoft ↗</a>
+        </div>
+        <div class="practice-side wsl-side">
+          <div class="wsl-flow" role="img" aria-label="Ubuntu funciona dentro do Windows"><span>Windows</span><b aria-hidden="true">→</b><span>Ubuntu</span></div>
+          <h3>Se escolheres instalar</h3>
+          <ol class="wsl-steps"><li>Abre <strong>PowerShell como administrador</strong>.</li><li>Copia e executa o comando:</li></ol>
+          <div class="code-line"><code id="install-wsl">wsl --install</code><button type="button" class="copy-command" data-copy-target="install-wsl">Copiar</button></div>
+          <p>O comando instala o Ubuntu por predefinição. Reinicia se for pedido; na primeira abertura, cria um utilizador e uma palavra-passe Linux.</p>
+          <details><summary>Já tenho WSL/Ubuntu</summary><p>Abre o terminal Ubuntu. No slide seguinte escolhe <strong>Linux</strong> para instalar ou verificar Git dentro do WSL.</p></details>
+          <details><summary>Não vou instalar agora</summary><p>Continua para o slide de Git e escolhe <strong>Windows</strong>. Git Bash é suficiente para todo o exercício.</p></details>
+          <a class="practice-link" href="https://github.com/RiquiFeup/workshop_git/blob/main/guia/wsl-opcional.md" target="_blank" rel="noopener noreferrer">Guia WSL do workshop ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide practice" id="slide-19" data-title="Conta e instalação" aria-roledescription="slide" aria-label="Slide 19: criar conta e instalar Git">
       <div class="slide-inner practice-layout">
         <div class="practice-intro">
           <span class="practice-time">14:35–15:00 · preparação</span><h2>Agora, conta e Git.</h2>
           <p class="lead">Cria ou abre a tua conta GitHub. Confirma o email. Depois verifica se Git funciona.</p>
           <a class="practice-link" href="https://github.com/signup" target="_blank" rel="noopener noreferrer">Criar conta no GitHub ↗</a>
-          <p class="aside">Escolhe o teu sistema para ver um caminho de instalação. <a href="https://github.com/RiquiFeup/workshop_git/blob/main/guia/wsl-opcional.md" target="_blank" rel="noopener noreferrer">WSL é opcional ↗</a></p>
+          <p class="aside">Escolhe o teu sistema para ver um caminho de instalação. Se usas WSL, escolhe Linux e executa os comandos no terminal Ubuntu.</p>
         </div>
         <div class="practice-side">
           <div class="os-tabs" role="tablist" aria-label="Sistema operativo">
@@ -250,7 +289,7 @@
       </div>
     </section>
 
-    <section class="slide practice" id="slide-18" data-title="Identidade Git" aria-roledescription="slide" aria-label="Slide 18: configurar a identidade dos commits">
+    <section class="slide practice" id="slide-20" data-title="Identidade Git" aria-roledescription="slide" aria-label="Slide 20: configurar a identidade dos commits">
       <div class="slide-inner practice-layout">
         <div class="practice-intro"><span class="practice-time">14:35–15:00 · preparação</span><h2>O commit precisa de um autor.</h2><p class="lead">Escolhe o nome que queres mostrar no histórico. Para o email, podes usar o endereço <code>noreply</code> da tua conta GitHub.</p><p class="aside">Substitui os exemplos antes de executar. Nunca escrevas uma password ou token nestes comandos.</p></div>
         <div class="practice-side">
@@ -263,14 +302,14 @@
       </div>
     </section>
 
-    <section class="slide practice" id="slide-19" data-title="Fork" aria-roledescription="slide" aria-label="Slide 19: criar a própria cópia com Fork">
+    <section class="slide practice" id="slide-21" data-title="Fork" aria-roledescription="slide" aria-label="Slide 21: criar a própria cópia com Fork">
       <div class="slide-inner practice-layout">
         <div class="practice-intro"><span class="practice-time">15:00–15:05 · cópia online</span><h2>Cria a tua cópia no GitHub.</h2><p class="lead">Abre o repositório do workshop. Clica em <strong>Fork</strong> e depois em <strong>Create fork</strong>.</p><p class="aside">Escolhe a <strong>tua conta</strong> como destino. É essa cópia que vais poder publicar.</p></div>
         <div class="practice-side fork-figure"><div class="repo-address"><span>original</span><strong>RiquiFeup / workshop_git</strong></div><span class="fork-arrow" aria-hidden="true">↓</span><div class="repo-address own"><span>o teu Fork</span><strong>TEU_UTILIZADOR / workshop_git</strong></div><a class="practice-link" href="https://github.com/RiquiFeup/workshop_git/fork" target="_blank" rel="noopener noreferrer">Abrir Fork do workshop ↗</a><p class="checkpoint">Conseguiste? O teu utilizador aparece antes de <strong>/workshop_git</strong>.</p></div>
       </div>
     </section>
 
-    <section class="slide practice" id="slide-20" data-title="Clone" aria-roledescription="slide" aria-label="Slide 20: clonar o próprio Fork">
+    <section class="slide practice" id="slide-22" data-title="Clone" aria-roledescription="slide" aria-label="Slide 22: clonar o próprio Fork">
       <div class="slide-inner practice-layout">
         <div class="practice-intro"><span class="practice-time">15:05–15:10 · cópia local</span><h2>Traz o teu Fork para o computador.</h2><p class="lead">Na página <strong>do teu Fork</strong>, clica em <strong>Code → HTTPS</strong> e copia o endereço.</p><p class="aside">No terminal, escreve <code>git clone</code>, um espaço e cola o endereço. O URL tem de conter o teu utilizador.</p></div>
         <div class="practice-side">
@@ -283,14 +322,14 @@
       </div>
     </section>
 
-    <section class="slide practice" id="slide-21" data-title="Editar README" aria-roledescription="slide" aria-label="Slide 21: editar o modelo de README">
+    <section class="slide practice" id="slide-23" data-title="Editar README" aria-roledescription="slide" aria-label="Slide 23: editar o modelo de README">
       <div class="slide-inner practice-layout">
         <div class="practice-intro"><span class="practice-time">15:10–15:18 · primeira alteração</span><h2>Faz o README falar de ti.</h2><p class="lead">No VS Code, abre a pasta clonada e o ficheiro <code>exercicio/README.md</code>. Muda o título e duas linhas de «Sobre mim».</p><p class="aside">Podes usar um pseudónimo. Badges, ícones e GIF são exemplos opcionais. Não publiques contactos, número de estudante, passwords ou tokens.</p></div>
         <div class="practice-side readme-preview"><span>exercicio/README.md</span><strong>Olá, sou [NOME OU PSEUDÓNIMO] 👋</strong><p>Tenho curiosidade sobre [TEMA].</p><p>Gostava de investigar [PERGUNTA].</p><a class="practice-link" href="https://github.com/RiquiFeup/workshop_git/blob/main/exercicio/README.md" target="_blank" rel="noopener noreferrer">Ver o modelo completo ↗</a><p class="checkpoint">Conseguiste? Guardaste o ficheiro no teu computador.</p></div>
       </div>
     </section>
 
-    <section class="slide practice" id="slide-22" data-title="Status e add" aria-roledescription="slide" aria-label="Slide 22: verificar e preparar a alteração">
+    <section class="slide practice" id="slide-24" data-title="Status e add" aria-roledescription="slide" aria-label="Slide 24: verificar e preparar a alteração">
       <div class="slide-inner practice-layout">
         <div class="practice-intro"><span class="practice-time">15:18–15:21 · verificar e escolher</span><h2>Vê a mudança. Depois escolhe-a.</h2><p class="lead"><code>status</code> mostra o que mudou. <code>add</code> escolhe o README para o próximo commit.</p><p class="aside">Executa os comandos dentro da pasta <code>workshop_git</code>, um de cada vez.</p></div>
         <div class="practice-side">
@@ -302,7 +341,7 @@
       </div>
     </section>
 
-    <section class="slide practice" id="slide-23" data-title="Commit e push" aria-roledescription="slide" aria-label="Slide 23: guardar e enviar o commit">
+    <section class="slide practice" id="slide-25" data-title="Commit e push" aria-roledescription="slide" aria-label="Slide 25: guardar e enviar o commit">
       <div class="slide-inner practice-layout">
         <div class="practice-intro"><span class="practice-time">15:21–15:27 · guardar e enviar</span><h2>Guarda uma versão. Envia-a.</h2><p class="lead"><code>commit</code> grava a versão no computador. <code>push</code> envia-a para o teu Fork no GitHub.</p><p class="aside">Se o navegador pedir autenticação, entra na tua conta. Não partilhes códigos nem credenciais.</p></div>
         <div class="practice-side">
@@ -314,7 +353,7 @@
       </div>
     </section>
 
-    <section class="slide practice" id="slide-24" data-title="Log e verificação" aria-roledescription="slide" aria-label="Slide 24: git log e confirmação no GitHub">
+    <section class="slide practice" id="slide-26" data-title="Log e verificação" aria-roledescription="slide" aria-label="Slide 26: git log e confirmação no GitHub">
       <div class="slide-inner practice-layout">
         <div class="practice-intro"><span class="practice-time">15:27–15:30 · confirmar</span><h2>Encontra o teu commit.</h2><p class="lead"><code>git log</code> mostra as versões guardadas. Depois abre o teu Fork e procura a mesma mensagem no GitHub.</p><p class="aside">O teu commit deve ser o primeiro da lista.</p></div>
         <div class="practice-side">
@@ -325,7 +364,7 @@
       </div>
     </section>
 
-    <section class="slide practice" id="slide-25" data-title="Dúvidas e erros" aria-roledescription="slide" aria-label="Slide 25: perguntas e resolução de erros">
+    <section class="slide practice" id="slide-27" data-title="Dúvidas e erros" aria-roledescription="slide" aria-label="Slide 27: perguntas e resolução de erros">
       <div class="slide-inner">
         <span class="practice-time">Ajuda durante a prática</span><h2>Ficaste bloqueado?</h2>
         <p class="lead narrow">Abre a dúvida que corresponde ao que estás a ver. Mostra a mensagem de erro a quem te está a apoiar.</p>
@@ -334,14 +373,14 @@
           <details><summary>Push: 403 ou “Permission denied”</summary><p>Executa <code>git remote -v</code>. <code>origin</code> deve incluir o teu utilizador, pois tens de clonar o teu Fork.</p></details>
           <details><summary>O commit pede nome e email</summary><p>Volta ao slide «Identidade Git» e configura ambos. Podes usar o email <code>noreply</code> do GitHub.</p></details>
           <details><summary>“nothing to commit”</summary><p>Confirma que editaste e guardaste <code>exercicio/README.md</code> dentro da pasta clonada. Se já fizeste o commit, segue para <code>git push</code>.</p></details>
-          <details><summary>O VS Code não abre</summary><p>Volta ao slide 16 e usa o link para a instalação oficial. Se o computador bloquear a instalação, pede apoio.</p></details>
+          <details><summary>O VS Code não abre</summary><p>Volta ao slide 17 e usa o link para a instalação oficial. Se o computador bloquear a instalação, pede apoio.</p></details>
           <details><summary>“CONFLICT” em pull ou merge</summary><p>O Git encontrou alterações incompatíveis no mesmo ficheiro. Mantém os ficheiros e pede apoio antes de continuar.</p></details>
         </div>
         <a class="practice-link" href="https://github.com/RiquiFeup/workshop_git/blob/main/guia/erros-frequentes.md" target="_blank" rel="noopener noreferrer">Abrir todas as soluções e perguntas ↗</a>
       </div>
     </section>
 
-    <section class="slide practice final-resources" id="slide-26" data-title="Recursos finais" aria-roledescription="slide" aria-label="Slide 26: recursos para depois do workshop">
+    <section class="slide practice final-resources" id="slide-28" data-title="Recursos finais" aria-roledescription="slide" aria-label="Slide 28: recursos para depois do workshop">
       <div class="slide-inner">
         <span class="practice-time">Depois do workshop</span><h2>Continua a explorar.</h2>
         <p class="lead narrow">Tens o teu primeiro commit. Guarda estes links para quando quiseres fazer mais.</p>
@@ -360,7 +399,7 @@
 
   <nav class="deck-controls" aria-label="Navegação da apresentação">
     <button id="prev" type="button" aria-label="Slide anterior" title="Slide anterior (seta esquerda)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 5-7 7 7 7"/></svg></button>
-    <span id="counter" aria-live="polite" aria-atomic="true">01 / 26</span>
+    <span id="counter" aria-live="polite" aria-atomic="true">01 / 28</span>
     <button id="next" type="button" aria-label="Slide seguinte" title="Slide seguinte (seta direita)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button>
     <button id="overview-toggle" type="button" aria-label="Abrir índice de slides" title="Índice de slides (O)"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></button>
   </nav>

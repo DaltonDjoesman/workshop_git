@@ -7,7 +7,7 @@ Aqui estão a apresentação, os passos a seguir durante a sessão e um pequeno 
 ## Começar
 
 1. Abre a [apresentação interativa](https://riquifeup.github.io/workshop_git/). A teoria segue `status → add → commit → push → log → pull → branch → merge → fork`; depois, os slides acompanham toda a prática.
-2. No início da prática, confirma que o [Visual Studio Code](guia/instalar-vscode.md) abre. Se precisares de mais detalhe, abre o [roteiro](guia/roteiro.md) e o guia de Git para [Windows](guia/instalar-windows.md), [macOS](guia/instalar-macos.md) ou [Linux](guia/instalar-linux.md). [WSL](guia/wsl-opcional.md) é opcional.
+2. No [slide 16](https://riquifeup.github.io/workshop_git/slides/#slide-16), usa o QR para abrir este repositório. Depois verifica o [Visual Studio Code](guia/instalar-vscode.md), vê a opção [WSL + Ubuntu](guia/wsl-opcional.md) se usas Windows, e prepara Git pelo guia de [Windows](guia/instalar-windows.md), [macOS](guia/instalar-macos.md) ou [Linux](guia/instalar-linux.md). O [roteiro](guia/roteiro.md) dá mais detalhe.
 3. Na prática, vais criar um **Fork** deste repositório, clonar a tua cópia e preencher o [modelo pessoal](exercicio/README.md).
 
 ## Índice
@@ -28,7 +28,7 @@ A apresentação publicada está organizada em [`docs/`](docs/): a página de en
 
 ## O percurso em uma linha
 
-**Na prática:** verificar VS Code → Fork no GitHub → Clone no computador → editar um ficheiro → `git status` → `git add` → `git commit` → `git push` → `git log` → confirmar no GitHub.
+**Na prática:** abrir o repositório pelo QR → verificar VS Code → ver WSL opcional → preparar Git e a conta → Fork → Clone → editar o README → `git status` → `git add` → `git commit` → `git push` → `git log` → confirmar no GitHub.
 
 `git pull`, branches e `git merge` são explicados na teoria com diagramas interativos. O exercício principal usa o percurso acima.
 

@@ -14,7 +14,11 @@ Não. Neste exercício editas um ficheiro de texto e aprendes a guardar e partil
 
 ## Preciso de ter Visual Studio Code?
 
-Vamos usá-lo para editar o README. No início da prática, o [slide 16](https://riquifeup.github.io/workshop_git/slides/#slide-16) ajuda-te a verificar se abre e aponta para a [instalação oficial](instalar-vscode.md). Não precisas de saber programar nem de instalar extensões.
+Vamos usá-lo para editar o README. Depois do QR de acesso aos materiais, o [slide 17](https://riquifeup.github.io/workshop_git/slides/#slide-17) ajuda-te a verificar se abre e aponta para a [instalação oficial](instalar-vscode.md). Não precisas de saber programar nem de instalar extensões.
+
+## Preciso de instalar WSL e Ubuntu?
+
+Não. O [slide 18](https://riquifeup.github.io/workshop_git/slides/#slide-18) mostra essa opção para Windows, com o comando e a [documentação da Microsoft](https://learn.microsoft.com/en-us/windows/wsl/install). A instalação pode pedir administrador e reinício. Se quiseres concluir o exercício sem demora, usa Git Bash no Windows e segue para a instalação de Git no slide 19.
 
 ## Porque faço Fork antes de Clone?
 

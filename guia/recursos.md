@@ -11,6 +11,7 @@ Os links abaixo permitem rever os passos e observar repositórios usados em Bioi
 | Perceber a origem do Git | [Uma história curta do Git · Pro Git](https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git) |
 | Rever a instalação | [Downloads oficiais do Git](https://git-scm.com/downloads/) |
 | Verificar ou instalar o editor | [Download oficial do Visual Studio Code](https://code.visualstudio.com/download) · [Guia do workshop](instalar-vscode.md) |
+| Usar Ubuntu no Windows, se quiseres | [Instalar WSL · Microsoft Learn](https://learn.microsoft.com/en-us/windows/wsl/install) · [Guia opcional do workshop](wsl-opcional.md) |
 | Criar e confirmar uma conta | [Criar conta · GitHub Docs](https://docs.github.com/en/account-and-profile/how-tos/account-management/creating-an-account-on-github) |
 | Criar a tua cópia online | [Fazer Fork · GitHub Docs](https://docs.github.com/en/pull-requests/how-tos/work-with-forks/fork-a-repo) |
 | Trazer a cópia para o computador | [Clonar um repositório · GitHub Docs](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) |
@@ -42,7 +43,7 @@ Se mais tarde quiseres contribuir para um projeto aberto, procura as instruçõe
 
 ## Para rever a ordem da teoria
 
-Os [slides 6 a 14](https://riquifeup.github.io/workshop_git/slides/#slide-6) seguem `status → add → commit → push → log → pull → branch → merge → fork`. Os diagramas de `log`, `pull`, branch e `merge` respondem a cliques. Na prática, começa pelo [slide 16: verificar o VS Code](https://riquifeup.github.io/workshop_git/slides/#slide-16), faz Fork e Clone da tua cópia e só depois edita o README.
+Os [slides 6 a 14](https://riquifeup.github.io/workshop_git/slides/#slide-6) seguem `status → add → commit → push → log → pull → branch → merge → fork`. Os diagramas de `log`, `pull`, branch e `merge` respondem a cliques. O [slide 16](https://riquifeup.github.io/workshop_git/slides/#slide-16) abre os materiais com QR; depois vêm [VS Code](https://riquifeup.github.io/workshop_git/slides/#slide-17), [WSL opcional](https://riquifeup.github.io/workshop_git/slides/#slide-18) e Git. Só então fazes Fork, Clone e a edição do README.
 
 ## Depois do workshop: ideias para o teu README
 
