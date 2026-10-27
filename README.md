@@ -4,7 +4,7 @@ Workshop prático e reutilizável: uma apresentação interativa, guias passo a 
 
 ## Para quem é
 
-Para estudantes do 1.º ano e para qualquer pessoa que nunca tenha usado Git. Não precisas de saber programar.
+Para qualquer pessoa que nunca tenha usado Git. Não precisas de saber programar.
 
 ## Pré-requisitos
 
