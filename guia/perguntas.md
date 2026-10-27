@@ -14,15 +14,15 @@ Não. Neste exercício editas um ficheiro de texto e aprendes a guardar e partil
 
 ## Preciso de ter Visual Studio Code?
 
-Vamos usá-lo para editar o README. Depois do QR de acesso aos materiais, o [slide 17](https://riquifeup.github.io/workshop_git/slides/#slide-17) ajuda-te a verificar se abre e aponta para a [instalação oficial](instalar-vscode.md). Não precisas de saber programar nem de instalar extensões.
+Vamos usá-lo para editar o README. Depois do QR de acesso aos materiais, o [slide 17](https://daltondjoesman.github.io/workshop_git/slides/#slide-17) ajuda-te a verificar se abre e aponta para a [instalação oficial](instalar-vscode.md). Não precisas de saber programar nem de instalar extensões.
 
 ## Preciso de instalar WSL e Ubuntu?
 
-Não. O [slide 18](https://riquifeup.github.io/workshop_git/slides/#slide-18) mostra essa opção para Windows, com o comando e a [documentação da Microsoft](https://learn.microsoft.com/en-us/windows/wsl/install). A instalação pode pedir administrador e reinício. Se quiseres concluir o exercício sem demora, usa Git Bash no Windows e segue para a instalação de Git no slide 19.
+Não. O [slide 18](https://daltondjoesman.github.io/workshop_git/slides/#slide-18) mostra essa opção para Windows, com o comando e a [documentação da Microsoft](https://learn.microsoft.com/en-us/windows/wsl/install). A instalação pode pedir administrador e reinício. Se quiseres concluir o exercício sem demora, usa Git Bash no Windows e segue para a instalação de Git no slide 19.
 
 ## Porque faço Fork antes de Clone?
 
-**Fork** cria uma cópia do [repositório do workshop](https://github.com/RiquiFeup/workshop_git) na tua conta GitHub. **Clone** descarrega essa tua cópia para o computador. Assim podes fazer `push` para a tua conta sem precisares de permissão para alterar o repositório do formador.
+**Fork** cria uma cópia do [repositório do workshop](https://github.com/DaltonDjoesman/workshop_git) na tua conta GitHub. **Clone** descarrega essa tua cópia para o computador. Assim podes fazer `push` para a tua conta sem precisares de permissão para alterar o repositório do formador.
 
 ## `git add` envia o ficheiro para o GitHub?
 
@@ -38,15 +38,15 @@ Mostra os commits guardados no repositório. Usa `git log --oneline -5` para ver
 
 ## Qual é a diferença entre `git push` e `git pull`?
 
-`push` envia commits locais para o repositório remoto. `pull` traz alterações do remoto e tenta integrá-las na branch local em que estás. No [slide 11](https://riquifeup.github.io/workshop_git/slides/#slide-11), podes clicar para ver o sentido da atualização. Na prática, o teu primeiro envio usa `push`.
+`push` envia commits locais para o repositório remoto. `pull` traz alterações do remoto e tenta integrá-las na branch local em que estás. No [slide 11](https://daltondjoesman.github.io/workshop_git/slides/#slide-11), podes clicar para ver o sentido da atualização. Na prática, o teu primeiro envio usa `push`.
 
 ## O que é uma branch?
 
-É uma linha de trabalho dentro do mesmo repositório. No [slide 12](https://riquifeup.github.io/workshop_git/slides/#slide-12), podes criar visualmente a linha `feature` a partir de `main` e ver as duas linhas de commits em paralelo.
+É uma linha de trabalho dentro do mesmo repositório. No [slide 12](https://daltondjoesman.github.io/workshop_git/slides/#slide-12), podes criar visualmente a linha `feature` a partir de `main` e ver as duas linhas de commits em paralelo.
 
 ## O que faz `git merge`?
 
-Integra alterações de uma branch noutra. No [slide 13](https://riquifeup.github.io/workshop_git/slides/#slide-13), as linhas de commits de `feature` e `main` convergem. Se as duas mudaram a mesma parte de um ficheiro, pode ser necessário resolver um conflito.
+Integra alterações de uma branch noutra. No [slide 13](https://daltondjoesman.github.io/workshop_git/slides/#slide-13), as linhas de commits de `feature` e `main` convergem. Se as duas mudaram a mesma parte de um ficheiro, pode ser necessário resolver um conflito.
 
 ## A ordem da teoria é a ordem dos comandos da prática?
 
@@ -54,7 +54,7 @@ A teoria segue `status → add → commit → push → log → pull → branch �
 
 ## Preciso de criar uma branch no exercício?
 
-Não neste exercício. O [slide 12](https://riquifeup.github.io/workshop_git/slides/#slide-12) mostra para que serve uma branch; na prática, vamos trabalhar na linha principal deste repositório, chamada `main`.
+Não neste exercício. O [slide 12](https://daltondjoesman.github.io/workshop_git/slides/#slide-12) mostra para que serve uma branch; na prática, vamos trabalhar na linha principal deste repositório, chamada `main`.
 
 ## O meu README tem de mostrar dados pessoais?
 

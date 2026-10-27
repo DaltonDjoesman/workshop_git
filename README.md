@@ -1,38 +1,42 @@
-# Git e GitHub: a primeira versão do teu trabalho
+# Git e GitHub para quem está a começar (1.º ano)
 
-**Workshop ArmisLAB × NUBI · 12 de outubro de 2026 · 14:00–15:30 · 1.º ano de Bioinformática**
+Workshop prático e reutilizável: uma apresentação interativa, guias passo a passo e um pequeno exercício. No fim, terás uma cópia deste repositório na tua conta GitHub com uma alteração e um commit feitos por ti.
 
-Aqui estão a apresentação, os passos a seguir durante a sessão e um pequeno exercício. Não precisas de saber programar. Os **slides interativos acompanham também a prática**; os guias Markdown dão detalhes e ajudam se ficares bloqueado. No fim, terás uma cópia deste repositório na tua conta GitHub com uma alteração feita por ti.
+## Para quem é
 
-## Começar
+Para estudantes do 1.º ano e para qualquer pessoa que nunca tenha usado Git. Não precisas de saber programar.
 
-1. Abre a [apresentação interativa](https://riquifeup.github.io/workshop_git/). A teoria segue `status → add → commit → push → log → pull → branch → merge → fork`; depois, os slides acompanham toda a prática.
-2. No [slide 16](https://riquifeup.github.io/workshop_git/slides/#slide-16), usa o QR para abrir este repositório. Depois verifica o [Visual Studio Code](guia/instalar-vscode.md), vê a opção [WSL + Ubuntu](guia/wsl-opcional.md) se usas Windows, e prepara Git pelo guia de [Windows](guia/instalar-windows.md), [macOS](guia/instalar-macos.md) ou [Linux](guia/instalar-linux.md). O [roteiro](guia/roteiro.md) dá mais detalhe.
-3. Na prática, vais criar um **Fork** deste repositório, clonar a tua cópia e preencher o [modelo pessoal](exercicio/README.md).
+## Pré-requisitos
 
-## Índice
+- Um computador com Windows, macOS ou Linux, e permissão para instalar programas (ou Git já instalado).
+- Um email para criar a conta GitHub (gratuita).
+- Ligação à internet. Conta com cerca de 90 minutos para fazer tudo.
 
-| Material | Para quê |
+## Como seguir
+
+1. **Slides:** abre a [apresentação interativa](https://daltondjoesman.github.io/workshop_git/). A teoria segue `status → add → commit → push → log → pull → branch → merge → fork`; depois, os slides acompanham toda a prática.
+2. **VS Code:** confirma que o [Visual Studio Code](guia/instalar-vscode.md) abre; vais usá-lo para editar um ficheiro.
+3. **WSL (opcional, só Windows):** vê a opção [WSL + Ubuntu](guia/wsl-opcional.md). Não é necessária: Git Bash chega.
+4. **Conta GitHub e Git:** cria ou abre a tua conta em [github.com/signup](https://github.com/signup) e prepara o Git pelo guia de [Windows](guia/instalar-windows.md), [macOS](guia/instalar-macos.md) ou [Linux](guia/instalar-linux.md).
+5. **Fork e Clone:** cria um **Fork** deste repositório na tua conta e clona a tua cópia. O [roteiro](guia/roteiro.md) explica cada passo.
+6. **Exercício:** personaliza o [modelo](exercicio/README.md) e faz `git status` → `git add` → `git commit` → `git push` → `git log`.
+
+O **Fork** é necessário: cria uma cópia na tua conta, para onde podes enviar as tuas alterações. Se clonasses diretamente este repositório, não terias permissão para fazer `push`.
+
+## Ficheiros
+
+| Ficheiro | Para quê |
 | --- | --- |
-| [Apresentação no GitHub Pages](https://riquifeup.github.io/workshop_git/) | Slides para projetar ou rever no navegador |
-| [Fonte dos slides](docs/slides/index.html) | HTML da apresentação neste repositório |
-| [Roteiro](guia/roteiro.md) | Passos e verificações durante a sessão |
-| [Visual Studio Code](guia/instalar-vscode.md) | Verificar ou instalar o editor antes do exercício |
-| [Instalar no Windows](guia/instalar-windows.md) · [macOS](guia/instalar-macos.md) · [Linux](guia/instalar-linux.md) | Preparar o computador |
-| [WSL opcional](guia/wsl-opcional.md) | Para quem usa ou precisa de Linux dentro do Windows |
-| [Erros frequentes](guia/erros-frequentes.md) · [Perguntas](guia/perguntas.md) | Ajuda rápida quando algo não corre como esperado |
-| [Recursos e exemplos reais](guia/recursos.md) | Documentação e repositórios de Bioinformática |
-| [Modelo do exercício](exercicio/README.md) | O ficheiro que vais personalizar no teu Fork |
-
-A apresentação publicada está organizada em [`docs/`](docs/): a página de entrada está em `docs/index.html`, os slides em `docs/slides/` e os logótipos em `docs/assets/brand/`.
-
-## O percurso em uma linha
-
-**Na prática:** abrir o repositório pelo QR → verificar VS Code → ver WSL opcional → preparar Git e a conta → Fork → Clone → editar o README → `git status` → `git add` → `git commit` → `git push` → `git log` → confirmar no GitHub.
-
-`git pull`, branches e `git merge` são explicados na teoria com diagramas interativos. O exercício principal usa o percurso acima.
-
-O **Fork** é necessário: cria uma cópia na tua conta, onde podes enviar as tuas alterações. Se clonasses diretamente o repositório do formador, não terias permissão para fazer `push` para ele.
+| [`docs/slides/index.html`](docs/slides/index.html) | Apresentação (publicada no [GitHub Pages](https://daltondjoesman.github.io/workshop_git/)) |
+| [`docs/index.html`](docs/index.html) | Página de entrada que redireciona para os slides |
+| [`docs/assets/workshop-qr.svg`](docs/assets/workshop-qr.svg) | QR code para este repositório (slide 16) |
+| [`guia/roteiro.md`](guia/roteiro.md) | Passos e verificações durante a sessão |
+| [`guia/instalar-vscode.md`](guia/instalar-vscode.md) | Verificar ou instalar o editor |
+| [`guia/instalar-windows.md`](guia/instalar-windows.md) · [`instalar-macos.md`](guia/instalar-macos.md) · [`instalar-linux.md`](guia/instalar-linux.md) | Preparar o Git no teu sistema |
+| [`guia/wsl-opcional.md`](guia/wsl-opcional.md) | Linux dentro do Windows (opcional) |
+| [`guia/erros-frequentes.md`](guia/erros-frequentes.md) · [`guia/perguntas.md`](guia/perguntas.md) | Ajuda rápida quando algo não corre como esperado |
+| [`guia/recursos.md`](guia/recursos.md) | Documentação oficial e repositórios reais para explorar |
+| [`exercicio/README.md`](exercicio/README.md) | O ficheiro que vais personalizar no teu Fork |
 
 ## O que deves conseguir mostrar no fim
 
@@ -40,8 +44,8 @@ O **Fork** é necessário: cria uma cópia na tua conta, onde podes enviar as tu
 - O texto que alteraste em `exercicio/README.md`.
 - Um commit teu na página **Commits** do Fork.
 
-Se ficares bloqueado, consulta [erros frequentes](guia/erros-frequentes.md) e chama quem está a apoiar a sala. Não partilhes palavras-passe, códigos de autenticação ou tokens.
+Se ficares bloqueado, consulta os [erros frequentes](guia/erros-frequentes.md) e pede ajuda a quem está a orientar a sessão. Nunca partilhes palavras-passe, códigos de autenticação ou tokens.
 
----
+## Fontes
 
-Organização: **ArmisLAB**, em parceria com o **Núcleo de Bioinformática (NUBI)**. A apresentação e os guias fazem parte deste mesmo repositório para que os links se mantenham juntos.
+[Pro Git](https://git-scm.com/book/en/v2) e documentação do [Git](https://git-scm.com/docs), [GitHub Docs](https://docs.github.com/), [Microsoft Learn (WSL)](https://learn.microsoft.com/en-us/windows/wsl/install) e [Visual Studio Code](https://code.visualstudio.com/docs). Os ícones do exercício vêm de [Devicon](https://github.com/devicons/devicon) e os badges de [Shields.io](https://shields.io/).

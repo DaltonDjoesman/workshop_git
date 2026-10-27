@@ -1,6 +1,6 @@
 # Verificar ou instalar Visual Studio Code
 
-[Voltar ao início](../README.md) · [Roteiro](roteiro.md) · [Slide 17](https://riquifeup.github.io/workshop_git/slides/#slide-17)
+[Voltar ao início](../README.md) · [Roteiro](roteiro.md) · [Slide 17](https://daltondjoesman.github.io/workshop_git/slides/#slide-17)
 
 ## Já está instalado?
 

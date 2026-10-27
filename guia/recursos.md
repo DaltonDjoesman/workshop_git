@@ -2,7 +2,7 @@
 
 [Voltar ao início](../README.md) · [Roteiro](roteiro.md)
 
-Os links abaixo permitem rever os passos e observar repositórios usados em Bioinformática. Não é preciso compreender o código para reconhecer a estrutura: procura o **README**, a lista de **Commits** e as **Issues**.
+Os links abaixo permitem rever os passos e observar repositórios reais e populares de código aberto. Não é preciso compreender o código para reconhecer a estrutura: procura o **README**, a lista de **Commits** e as **Issues**.
 
 ## Para rever Git e GitHub
 
@@ -26,9 +26,9 @@ Os links abaixo permitem rever os passos e observar repositórios usados em Bioi
 
 | Repositório | O que mostra | O que observar |
 | --- | --- | --- |
-| [Biopython](https://github.com/biopython/biopython) | Um projeto aberto com ferramentas para trabalho em Biologia Computacional | README, documentação, histórico de commits e contributos de várias pessoas |
-| [nf-core/rnaseq](https://github.com/nf-core/rnaseq) | Uma pipeline comunitária para análise de sequenciação de RNA | README, instruções de utilização e Issues abertas pela comunidade |
-| [Illumina · DRAGEN AWS Batch quickstart](https://github.com/Illumina/dragen-aws-batch-quickstart) | Um exemplo de repositório público de uma empresa da área da genómica | README e ficheiros de documentação; empresas também publicam projetos no GitHub |
+| [git/git](https://github.com/git/git) | O código do próprio Git, desenvolvido em aberto | README, histórico de commits e mensagens de commit detalhadas |
+| [microsoft/vscode](https://github.com/microsoft/vscode) | O Visual Studio Code, um projeto aberto mantido por uma empresa | README, instruções `CONTRIBUTING.md` e Issues abertas pela comunidade |
+| [freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | Uma plataforma aberta para aprender a programar | README, documentação e contributos de muitas pessoas |
 
 As contagens de estrelas, commits e Issues mudam com o tempo. Na apresentação, usa esses números apenas como fotografia do dia e aponta sobretudo para a organização do trabalho.
 
@@ -43,7 +43,7 @@ Se mais tarde quiseres contribuir para um projeto aberto, procura as instruçõe
 
 ## Para rever a ordem da teoria
 
-Os [slides 6 a 14](https://riquifeup.github.io/workshop_git/slides/#slide-6) seguem `status → add → commit → push → log → pull → branch → merge → fork`. Os diagramas de `log`, `pull`, branch e `merge` respondem a cliques. O [slide 16](https://riquifeup.github.io/workshop_git/slides/#slide-16) abre os materiais com QR; depois vêm [VS Code](https://riquifeup.github.io/workshop_git/slides/#slide-17), [WSL opcional](https://riquifeup.github.io/workshop_git/slides/#slide-18) e Git. Só então fazes Fork, Clone e a edição do README.
+Os [slides 6 a 14](https://daltondjoesman.github.io/workshop_git/slides/#slide-6) seguem `status → add → commit → push → log → pull → branch → merge → fork`. Os diagramas de `log`, `pull`, branch e `merge` respondem a cliques. O [slide 16](https://daltondjoesman.github.io/workshop_git/slides/#slide-16) abre os materiais com QR; depois vêm [VS Code](https://daltondjoesman.github.io/workshop_git/slides/#slide-17), [WSL opcional](https://daltondjoesman.github.io/workshop_git/slides/#slide-18) e Git. Só então fazes Fork, Clone e a edição do README.
 
 ## Depois do workshop: ideias para o teu README
 

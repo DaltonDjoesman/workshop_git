@@ -31,7 +31,7 @@
     progress.style.transform = `scaleX(${(current + 1) / slides.length})`;
     prev.disabled = current === 0;
     next.disabled = current === slides.length - 1;
-    document.title = `${slides[current].dataset.title} · Git & GitHub — ArmisLAB × NUBI`;
+    document.title = `${slides[current].dataset.title} · Git & GitHub para quem está a começar`;
     [...overviewList.querySelectorAll('button')].forEach((button, position) => {
       if (position === current) button.setAttribute('aria-current', 'true');
       else button.removeAttribute('aria-current');

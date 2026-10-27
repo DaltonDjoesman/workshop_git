@@ -25,7 +25,7 @@ Podes removê-los se não quiseres esse aspeto ou se preferires menos pedidos ex
 <h3 align="left">👩‍💻 Sobre mim</h3>
 
 <p align="left">
-  Estudo Bioinformática e tenho curiosidade sobre [TEMA].<br>
+  Estudo [CURSO OU ÁREA] e tenho curiosidade sobre [TEMA].<br>
   🔭 Gostava de investigar [PERGUNTA SIMPLES].<br>
   📚 Neste momento estou a aprender [ALGO QUE ESTEJAS A APRENDER].<br>
   ⚡ Fora das aulas gosto de [ATIVIDADE OPCIONAL].
@@ -46,7 +46,7 @@ Ainda estou a explorar. Os ícones seguintes são **exemplos visuais**, não uma
   <img width="12" alt="" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg" height="40" alt="Exemplo: Firebase" />
   <img width="12" alt="" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-line-wordmark.svg" height="40" alt="Exemplo: AWS" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="Exemplo: Git" />
   <img width="12" alt="" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/circleci/circleci-plain.svg" height="40" alt="Exemplo: CircleCI" />
   <img width="12" alt="" />

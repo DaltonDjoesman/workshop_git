@@ -1,6 +1,6 @@
 # WSL no Windows: percurso opcional
 
-[Voltar ao início](../README.md) · [Roteiro](roteiro.md) · [Slide 18](https://riquifeup.github.io/workshop_git/slides/#slide-18)
+[Voltar ao início](../README.md) · [Roteiro](roteiro.md) · [Slide 18](https://daltondjoesman.github.io/workshop_git/slides/#slide-18)
 
 **Para este workshop, Git Bash chega no Windows.** O WSL (Windows Subsystem for Linux) permite usar Ubuntu no computador, mas a instalação pode exigir privilégios de administrador e reinício. Não precisas dele para terminar o exercício.
 
