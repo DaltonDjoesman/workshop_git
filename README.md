@@ -1,4 +1,4 @@
-# Git e GitHub para quem está a começar (1.º ano)
+# Git e GitHub para quem está a começar
 
 Workshop prático e reutilizável: uma apresentação interativa, guias passo a passo e um pequeno exercício. No fim, terás uma cópia deste repositório na tua conta GitHub com uma alteração e um commit feitos por ti.
 
